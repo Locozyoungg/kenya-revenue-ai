@@ -1,0 +1,14 @@
+{
+    "welcome": "Welcome",
+    "balance": "Balance",
+    "dueDate": "Due Date",
+    "complianceTips": "Compliance Tips",
+    "aiSuggestion": "AI Suggestion",
+    "complianceScore": "Compliance Score",
+    "fileReturn": "File Your Tax Return",
+    "autoFillMpesa": "Auto-Fill from M-Pesa",
+    "month": "Month",
+    "income": "Income",
+    "tax": "Tax",
+    "sendOtp": "Send OTP"
+  }

@@ -1,0 +1,24 @@
+# Application Configuration
+database:
+  host: kra-prod-db.aws.region.rds.amazonaws.com
+  port: 5432
+  name: revenue_ai
+  user: ai_service
+  password: secure_password
+
+kra_api:
+  base_url: "https://api.kra.go.ke/v1"
+  client_id: "CLIENT_ID_FROM_KRA"
+  client_secret: "SECRET_KEY"
+
+mpesa:
+  consumer_key: "mpesa_consumer_key"
+  consumer_secret: "mpesa_secret"
+  shortcode: "123456"
+
+ml_models:
+  fraud_detection_threshold: 0.85
+  risk_categories:
+    - "high"
+    - "medium" 
+    - "low"
